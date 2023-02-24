@@ -1,0 +1,8 @@
+<div *ngIf="pokemon">
+  <p><span>Name:</span> {{ pokemon.name }}</p>
+  <p><span>Base experience:</span> {{ pokemon.base_experience }} m</p>
+  <p><span>Height:</span> {{ pokemon.height }} m</p>
+  <p><span>Id:</span> {{ pokemon.id }}</p>
+  <p><span>Weight:</span> {{ pokemon.weight }} kg</p>
+  <p><span>Ability:</span> {{ pokemon.abilities[0].ability['name'] }}</p>
+</div>
